@@ -1,0 +1,32 @@
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+h1 {font-family: Calibri, Arial, sans-serif;
+    font-size: 75px;
+    color: #b1adaaff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0477dcff;
+    text-align: center;
+    margin: 200px 10px 25px;
+}
+h2 {font-family: Calibri, Arial, sans-serif;
+    font-size: 40px;
+    color: #b1adaaff;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0477dcff;
+    text-align: center;
+    margin: 10px 50px 50px;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/5605181/pexels-photo-5605181.jpeg?cs=srgb&dl=pexels-catherine-martindunlop-5605181.jpg&fm=jpg"); */
+    background-color: #3a8da6ff;
+}
+
+/* CSS HEX */
+/* --acid-green: #a4b63eff;
+--silver-chalice: #b1adaaff;
+--bright-navy-blue: #0477dcff;
+--blue-munsell: #3a8da6ff; */
