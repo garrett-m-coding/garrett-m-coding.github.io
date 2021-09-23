@@ -80,20 +80,14 @@ h3 {font-family: Calibri, Arial, sans-serif;
     margin: 10px 50px 50px;
 }
 
-.project-circle-wrapper {
-    width: 300px;
-    height: 300px;
-    position: relative;
-}
-
-.text {
-    font-family: Calibri, Arial, sans-serif;
-    font-size: 50px;
-    color:#a4b63eff;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:black;
+p {font-family: Calibri, Arial, sans-serif;
+    font-size: 35px;
+    color:#3a8da6ff;
+    background-color: white;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:black; */
     text-align: center;
-    margin: 10px 50px 50px;
+    margin: 10px 50px 10px;
 }
 
 img {
@@ -106,7 +100,15 @@ img {
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 15%;
+}
+
+.center-middle {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
 }
 
 body {
