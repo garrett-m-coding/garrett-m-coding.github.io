@@ -4,6 +4,55 @@ html {
     overflow-y: scroll;
 }
 
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(199, 185, 185);
+    position: relative;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 20px;
+}
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 20px;
+}
+  
+/* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 20px;
+    display: block;
+}
+  
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+/* Style the active link (or home) */
+.active {
+    background-color:black;
+    color: white;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 20px;
+}
+
 h1 {font-family: Calibri, Arial, sans-serif;
     font-size: 75px;
     color: #b1adaaff;
@@ -14,10 +63,10 @@ h1 {font-family: Calibri, Arial, sans-serif;
 }
 
 h2 {font-family: Calibri, Arial, sans-serif;
-    font-size: 40px;
-    color: #b1adaaff;
+    font-size: 50px;
+    color:#a4b63eff;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #0477dcff;
+    -webkit-text-stroke-color:black;
     text-align: center;
     margin: 10px 50px 50px;
 }
@@ -40,7 +89,7 @@ body {
     background-color: #3a8da6ff;
 }
 
-/* CSS HEX */
+/* CSS HEX color palette*/
 /* --acid-green: #a4b63eff;
 --silver-chalice: #b1adaaff;
 --bright-navy-blue: #0477dcff;
