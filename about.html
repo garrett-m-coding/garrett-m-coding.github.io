@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Garrett Mcginnis | Full-stack Developer </title>
+        <link rel="stylesheet" href = "stylesheet.css">
+        <style>
+        </style>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="https://garrett-m-coding.github.io/" class="active">Home</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="https://github.com/garrett-m-coding/garrett-m-coding.github.io/blob/main/about.html">About</a>
+    <a href="https://github.com/garrett-m-coding/garrett-m-coding.github.io/blob/main/projects.html">Projects</a>
+    <a href="https://github.com/garrett-m-coding/garrett-m-coding.github.io/blob/main/contact.html">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </head>
+    <body>
+        <img src="https://github.com/garrett-m-coding/garrett-m-coding.github.io/blob/main/headshot_2016.jpg?raw=true" alt="GM-Headshot" class="center">    
+        <h1>ABOUT ME</h1>
+        <h2>My name is Garrett Mcginnis. I did things in the US Air Force for 9+ years. I did things for people as their financial advisor for 4+ years. I now do standard coding things, but need to make it sound amazing. I solve problems like every other junior coder, but need to make it sound amazing. I will work until the job is done!</h2>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                x.style.display = "none";
+                } else {
+                x.style.display = "block";
+                }
+            }
+        </script>         
+</html>
